@@ -1,4 +1,4 @@
-🚀 **Hi, I'm YuePeng,a passionate self-taught backend developer from China.**
+🚀 ** Hello, I'm YuePeng, a passionate backend developer hailing from China.**
 
 ---
 
@@ -6,4 +6,4 @@
 
 ---
 
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="20"> <em><b>I love to make friends.</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> 😊</em>
+![WakaTime](https://wakatime.com/share/@your_wakatime_username/your_project_id.svg)
