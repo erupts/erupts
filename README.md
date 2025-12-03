@@ -1,4 +1,4 @@
-![YuePeng](me.svg)
+<img alt="YuePeng" src="me.svg" />
 
 <h3 align='center'>
 🚀 Hello, I'm YuePeng, Erupt's author
