@@ -1,4 +1,4 @@
-### 🚀 Hello, I'm YuePeng, a passionate backend developer hailing from China.
+### 🚀 Hello, I'm YuePeng, Erupt's author
 
 ---
 
