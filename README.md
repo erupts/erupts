@@ -1,9 +1,9 @@
-<img alt="YuePeng" src="me.svg" />
-
 <h3 align='center'>
 🚀 Hello, I'm YuePeng, Erupt's author
 </h3>
-
+<p align='center'>
+    <img alt="YuePeng" src="me.svg" width="70%" />
+</p>
 <p align='center'>
     <img alt="Erupt" src="https://img.shields.io/badge/Erupt-0078D4?style=flat-square&logo=spring&logoColor=white" />
     <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=OpenJDK&logoColor=white" />
