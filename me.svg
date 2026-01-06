@@ -53,7 +53,7 @@
         }
 
         .plate{
-            fill: transparent;
+            fill: #fff;
             stroke: none;
             rx:16px
         }
