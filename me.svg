@@ -53,7 +53,9 @@
         }
 
         .plate{
+            fill: transparent;
             stroke: none;
+            rx:16px
         }
     </style>
     <symbol id="s-text">
