@@ -21,16 +21,16 @@
         }
 
         /* ── Dark theme (default) ── */
-        .text:nth-child(1) { stroke: #0d1117; animation-delay: -1s; }
-        .text:nth-child(2) { stroke: #1e2a3a; animation-delay: -2s; }
+        .text:nth-child(1) { stroke: #ffffff; animation-delay: -1s; }
+        .text:nth-child(2) { stroke: #eaf1fb; animation-delay: -2s; }
         .text:nth-child(3) { stroke: #00b0ff; animation-delay: -3s; }
         .text:nth-child(4) { stroke: #00b0ff; animation-delay: -4s; }
         .text:nth-child(5) { stroke: #ff007f; animation-delay: -5s; }
 
         /* ── Light theme overrides ── */
         @media (prefers-color-scheme: light) {
-            .text:nth-child(1) { stroke: #ffffff; }
-            .text:nth-child(2) { stroke: #eaf1fb; }
+            .text:nth-child(1) { stroke: #0d1117; }
+            .text:nth-child(2) { stroke: #1e2a3a; }
             .text:nth-child(3) { stroke: #0078d4; }
             .text:nth-child(4) { stroke: #0078d4; }
             .text:nth-child(5) { stroke: #d6006e; }
