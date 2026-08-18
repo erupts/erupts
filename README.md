@@ -1,4 +1,4 @@
-<p align="center"><b>OPEN-SOURCE AUTHOR · LOW-CODE</b></p>
+<p align="center"><b>OPEN-SOURCE · LOW-CODE</b></p>
 
 <p align="center"><code>less code · more power</code></p>
 
