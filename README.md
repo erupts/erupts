@@ -1,7 +1,3 @@
-<p align="center">
-    <img alt="YuePeng" src="me.svg" width="76%" />
-</p>
-
 <p align="center"><b>OPEN-SOURCE AUTHOR · LOW-CODE</b></p>
 
 <p align="center"><code>less code · more power</code></p>
@@ -18,6 +14,8 @@
     <a href="https://demo.erupt.xyz"><code><b>[ LIVE DEMO ]</b></code></a>&nbsp;&nbsp;
     <a href="https://docs.erupt.xyz"><code><b>[ DOCS ]</b></code></a>
 </p>
+
+<img alt="YuePeng" src="me.svg" />
 
 ---
 
