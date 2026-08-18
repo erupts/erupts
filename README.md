@@ -15,7 +15,7 @@
     <a href="https://docs.erupt.xyz"><code><b>[ DOCS ]</b></code></a>
 </p>
 
----
+<img alt="YuePeng" src="me.svg" />
 
 ## 01 · WHAT I BUILD
 
@@ -32,4 +32,3 @@ I build tools that delete boilerplate — admin systems, queries, and integratio
 - **Abstraction over accumulation** — complex problems usually hide a simple model; find it, don't pile code on it.
 - **Rewrite without regret** — never married to an implementation, always open to a better one.
 
-<img alt="YuePeng" src="me.svg" />
