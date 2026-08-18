@@ -15,20 +15,10 @@
     <a href="https://docs.erupt.xyz"><code><b>[ DOCS ]</b></code></a>
 </p>
 
-<img alt="YuePeng" src="me.svg" />
-
-## 01 · WHAT I BUILD
-
-I build tools that delete boilerplate — admin systems, queries, and integrations that used to take weeks, reduced to a few lines of Java.
-
-| PROJECT | ABOUT | |
-| :-- | :-- | :-- |
-| **[erupt](https://github.com/erupts/erupt)** | Annotation-driven Java admin framework · AI harness.<br/>`one class = one admin page · zero front-end · MCP-native` | <img alt="stars" src="https://img.shields.io/github/stars/erupts/erupt?style=flat-square&labelColor=000000&color=4FC8EC&label=STARS" /> |
-| **[linq.j](https://github.com/erupts/linq.j)** | Language-integrated query for Java.<br/>`query object collections like SQL — type-safe, one line` | <img alt="stars" src="https://img.shields.io/github/stars/erupts/linq.j?style=flat-square&labelColor=000000&color=4FC8EC&label=STARS" /> |
-
-## 02 · HOW I THINK
+## HOW I THINK
 
 - **Less is more** — the best framework is the one you barely notice.
 - **Abstraction over accumulation** — complex problems usually hide a simple model; find it, don't pile code on it.
 - **Rewrite without regret** — never married to an implementation, always open to a better one.
 
+<img alt="YuePeng" src="me.svg" />
