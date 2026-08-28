@@ -1,12 +1,16 @@
-<p align="center"><b>OPEN-SOURCE · LOW-CODE</b></p>
-
-<p align="center"><code>less code · more power</code></p>
+<img alt="less code · more power — open source · low-code · creator of erupt & linq.j" src="me.svg" width="100%" />
 
 <p align="center">
-    <img alt="Java" src="https://img.shields.io/badge/JAVA-000000?style=flat-square&logo=openjdk&logoColor=4FC8EC" />
-    <img alt="SQL" src="https://img.shields.io/badge/SQL-000000?style=flat-square&logo=postgresql&logoColor=4FC8EC" />
-    <img alt="Angular" src="https://img.shields.io/badge/ANGULAR-000000?style=flat-square&logo=angular&logoColor=4FC8EC" />
-    <img alt="TypeScript" src="https://img.shields.io/badge/TYPESCRIPT-000000?style=flat-square&logo=typescript&logoColor=4FC8EC" />
+    <img alt="Java" src="https://img.shields.io/badge/JAVA-0d0221?style=flat-square&logo=openjdk&logoColor=05d9e8" />
+    <img alt="Spring" src="https://img.shields.io/badge/SPRING-0d0221?style=flat-square&logo=spring&logoColor=ff2a6d" />
+    <img alt="JPA" src="https://img.shields.io/badge/JPA-0d0221?style=flat-square&logo=hibernate&logoColor=05d9e8" />
+    <img alt="SQL" src="https://img.shields.io/badge/SQL-0d0221?style=flat-square&logo=postgresql&logoColor=ff2a6d" />
+    <br/>
+    <img alt="Angular" src="https://img.shields.io/badge/ANGULAR-0d0221?style=flat-square&logo=angular&logoColor=05d9e8" />
+    <img alt="TypeScript" src="https://img.shields.io/badge/TYPESCRIPT-0d0221?style=flat-square&logo=typescript&logoColor=ff2a6d" />
+    <img alt="JavaScript" src="https://img.shields.io/badge/JAVASCRIPT-0d0221?style=flat-square&logo=javascript&logoColor=05d9e8" />
+    <img alt="HTML5" src="https://img.shields.io/badge/HTML5-0d0221?style=flat-square&logo=html5&logoColor=ff2a6d" />
+    <img alt="CSS3" src="https://img.shields.io/badge/CSS3-0d0221?style=flat-square&logo=css3&logoColor=05d9e8" />
 </p>
 
 <p align="center">
@@ -16,9 +20,7 @@
     <a href="https://start.erupt.xyz"><code><b>[ START ]</b></code></a>
 </p>
 
-<img alt="YuePeng" src="me.svg" />
-
-## HOW I THINK
+## How I think
 
 - **Less is more** — the best framework is the one you barely notice.
 - **Abstraction over accumulation** — complex problems usually hide a simple model; find it, don't pile code on it.

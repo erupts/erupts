@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" role="img" aria-label="YuePeng — open source · low-code">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" role="img" aria-label="less code — open source · low-code">
     <style>
         text { font-family: ui-monospace, 'SFMono-Regular', Menlo, 'Cascadia Code', 'JetBrains Mono', Consolas, monospace; }
 
@@ -96,13 +96,13 @@
 
         <!-- WORDMARK with chromatic aberration -->
         <g filter="url(#glow)">
-            <text class="name cyan gC"  x="66" y="150">YuePeng</text>
-            <text class="name pink gP"  x="66" y="150">YuePeng</text>
-            <text class="name white"    x="66" y="150">YuePeng</text>
+            <text class="name cyan gC"  x="66" y="150">less code</text>
+            <text class="name pink gP"  x="66" y="150">less code</text>
+            <text class="name white"    x="66" y="150">less code</text>
         </g>
         <!-- glitch slice -->
         <g clip-path="url(#sliceClip)">
-            <text class="name pink slice" x="66" y="150">YuePeng</text>
+            <text class="name pink slice" x="66" y="150">less code</text>
         </g>
 
         <text class="tag" x="70" y="184" filter="url(#glow)">OPEN SOURCE &#183; LOW-CODE</text>
