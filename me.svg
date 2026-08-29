@@ -96,13 +96,13 @@
 
         <!-- WORDMARK with chromatic aberration -->
         <g filter="url(#glow)">
-            <text class="name cyan gC"  x="66" y="150">less code</text>
-            <text class="name pink gP"  x="66" y="150">less code</text>
-            <text class="name white"    x="66" y="150">less code</text>
+            <text class="name cyan gC"  x="66" y="150">Less code</text>
+            <text class="name pink gP"  x="66" y="150">Less code</text>
+            <text class="name white"    x="66" y="150">Less code</text>
         </g>
         <!-- glitch slice -->
         <g clip-path="url(#sliceClip)">
-            <text class="name pink slice" x="66" y="150">less code</text>
+            <text class="name pink slice" x="66" y="150">Less code</text>
         </g>
 
         <text class="tag" x="70" y="184" filter="url(#glow)">OPEN SOURCE &#183; LOW-CODE</text>
