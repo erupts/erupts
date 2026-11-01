@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 356" role="img" aria-label="stack — Java, Spring, JPA, Redis, MySQL, PostgreSQL, Angular, TypeScript, JavaScript, HTML5, CSS3, LLM, Agent, MCP, RAG, AI Coding, Spark, Flink, Kafka, ClickHouse, Paimon, Airflow, Linux, Docker, K8s, Nginx, Git, Maven, Erupt, Linq.J, Erupt-Web, Erupt-Cube, Erupt-Flow">
+    <style>
+        text { font-family: ui-monospace, 'SFMono-Regular', Menlo, 'Cascadia Code', 'JetBrains Mono', Consolas, monospace; }
+
+        .cmd   { font-size: 15px; fill: #ff2a6d; }
+        .label { font-size: 12px; letter-spacing: 5px; fill: #eafcff; opacity: .55; }
+        .chip  { font-size: 14px; letter-spacing: 2px; font-weight: 700; text-anchor: middle; dominant-baseline: central; }
+        .note  { font-size: 12px; fill: #eafcff; opacity: .35; text-anchor: end; }
+
+        .c rect { stroke: #05d9e8; fill: #05d9e8; fill-opacity: .08; }
+        .c text { fill: #05d9e8; }
+        .p rect { stroke: #ff2a6d; fill: #ff2a6d; fill-opacity: .08; }
+        .p text { fill: #ff2a6d; }
+        .white  { fill: #eafcff; }
+
+        /* chips light up one after another, like a boot sequence */
+        .chips > g { animation: boot 6s steps(1) infinite; }
+        @keyframes boot { 0%, 100% { opacity: 1; } 2% { opacity: .25; } 4% { opacity: 1; } }
+
+        .cursor { fill: #f9f002; animation: blink 1s step-end infinite; }
+        @keyframes blink { 50% { opacity: 0; } }
+
+        .flow { stroke-dasharray: 4 10; animation: flow 3s linear infinite; }
+        @keyframes flow { to { stroke-dashoffset: -28; } }
+    </style>
+
+    <defs>
+        <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#0d0221"/>
+            <stop offset="1" stop-color="#1a0833"/>
+        </linearGradient>
+        <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+            <feGaussianBlur stdDeviation="1.8" result="b"/>
+            <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+        <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+            <rect width="4" height="1.4" fill="#000" opacity=".28"/>
+        </pattern>
+        <clipPath id="panelClip"><rect x="6" y="6" width="888" height="344" rx="14"/></clipPath>
+    </defs>
+
+    <!-- panel -->
+    <rect x="6" y="6" width="888" height="344" rx="14" fill="url(#sky)" stroke="#05d9e8" stroke-width="1.5"/>
+
+    <g clip-path="url(#panelClip)">
+        <rect x="16" y="16" width="868" height="324" rx="10" fill="none" stroke="#ff2a6d" stroke-width="1" opacity=".3"/>
+
+        <!-- prompt -->
+        <text class="cmd" x="40" y="48" filter="url(#glow)">&#8250; <tspan class="white">stack</tspan> --list<tspan class="cursor"> &#9608;</tspan></text>
+        <text class="note" x="860" y="48">// full-stack, end to end</text>
+        <line class="flow" x1="40" y1="64" x2="860" y2="64" stroke="#05d9e8" stroke-width="1" opacity=".45"/>
+
+        <!-- row labels -->
+        <text class="label" x="40" y="99">BACKEND</text>
+        <text class="label" x="40" y="143">FRONTEND</text>
+        <text class="label" x="40" y="187">AI</text>
+        <text class="label" x="40" y="231">BIG DATA</text>
+        <text class="label" x="40" y="275">DEVOPS</text>
+        <text class="label" x="40" y="319">OPEN SOURCE</text>
+
+        <g class="chips" filter="url(#glow)" stroke-width="1.2">
+            <!-- backend -->
+            <g class="c" style="animation-delay:0s"><rect x="190" y="80" width="72" height="28" rx="4"/><text class="chip" x="226" y="94">JAVA</text></g>
+            <g class="p" style="animation-delay:0.15s"><rect x="274" y="80" width="92" height="28" rx="4"/><text class="chip" x="320" y="94">SPRING</text></g>
+            <g class="c" style="animation-delay:0.3s"><rect x="378" y="80" width="62" height="28" rx="4"/><text class="chip" x="409" y="94">JPA</text></g>
+            <g class="p" style="animation-delay:0.45s"><rect x="452" y="80" width="82" height="28" rx="4"/><text class="chip" x="493" y="94">REDIS</text></g>
+            <g class="c" style="animation-delay:0.6s"><rect x="546" y="80" width="82" height="28" rx="4"/><text class="chip" x="587" y="94">MYSQL</text></g>
+            <g class="p" style="animation-delay:0.75s"><rect x="640" y="80" width="134" height="28" rx="4"/><text class="chip" x="707" y="94">POSTGRESQL</text></g>
+
+            <!-- frontend -->
+            <g class="c" style="animation-delay:0.9s"><rect x="190" y="124" width="102" height="28" rx="4"/><text class="chip" x="241" y="138">ANGULAR</text></g>
+            <g class="p" style="animation-delay:1.05s"><rect x="304" y="124" width="134" height="28" rx="4"/><text class="chip" x="371" y="138">TYPESCRIPT</text></g>
+            <g class="c" style="animation-delay:1.2s"><rect x="450" y="124" width="134" height="28" rx="4"/><text class="chip" x="517" y="138">JAVASCRIPT</text></g>
+            <g class="p" style="animation-delay:1.35s"><rect x="596" y="124" width="82" height="28" rx="4"/><text class="chip" x="637" y="138">HTML5</text></g>
+            <g class="c" style="animation-delay:1.5s"><rect x="690" y="124" width="72" height="28" rx="4"/><text class="chip" x="726" y="138">CSS3</text></g>
+
+            <!-- ai -->
+            <g class="p" style="animation-delay:1.65s"><rect x="190" y="168" width="62" height="28" rx="4"/><text class="chip" x="221" y="182">LLM</text></g>
+            <g class="c" style="animation-delay:1.8s"><rect x="264" y="168" width="82" height="28" rx="4"/><text class="chip" x="305" y="182">AGENT</text></g>
+            <g class="p" style="animation-delay:1.95s"><rect x="358" y="168" width="62" height="28" rx="4"/><text class="chip" x="389" y="182">MCP</text></g>
+            <g class="c" style="animation-delay:2.1s"><rect x="432" y="168" width="62" height="28" rx="4"/><text class="chip" x="463" y="182">RAG</text></g>
+            <g class="p" style="animation-delay:2.25s"><rect x="506" y="168" width="124" height="28" rx="4"/><text class="chip" x="568" y="182">AI CODING</text></g>
+
+            <!-- big data -->
+            <g class="c" style="animation-delay:2.4s"><rect x="190" y="212" width="82" height="28" rx="4"/><text class="chip" x="231" y="226">SPARK</text></g>
+            <g class="p" style="animation-delay:2.55s"><rect x="284" y="212" width="82" height="28" rx="4"/><text class="chip" x="325" y="226">FLINK</text></g>
+            <g class="c" style="animation-delay:2.7s"><rect x="378" y="212" width="82" height="28" rx="4"/><text class="chip" x="419" y="226">KAFKA</text></g>
+            <g class="p" style="animation-delay:2.85s"><rect x="472" y="212" width="134" height="28" rx="4"/><text class="chip" x="539" y="226">CLICKHOUSE</text></g>
+            <g class="c" style="animation-delay:3s"><rect x="618" y="212" width="92" height="28" rx="4"/><text class="chip" x="664" y="226">PAIMON</text></g>
+            <g class="p" style="animation-delay:3.15s"><rect x="722" y="212" width="102" height="28" rx="4"/><text class="chip" x="773" y="226">AIRFLOW</text></g>
+
+            <!-- devops -->
+            <g class="c" style="animation-delay:3.3s"><rect x="190" y="256" width="82" height="28" rx="4"/><text class="chip" x="231" y="270">LINUX</text></g>
+            <g class="p" style="animation-delay:3.45s"><rect x="284" y="256" width="92" height="28" rx="4"/><text class="chip" x="330" y="270">DOCKER</text></g>
+            <g class="c" style="animation-delay:3.6s"><rect x="388" y="256" width="62" height="28" rx="4"/><text class="chip" x="419" y="270">K8S</text></g>
+            <g class="p" style="animation-delay:3.75s"><rect x="462" y="256" width="82" height="28" rx="4"/><text class="chip" x="503" y="270">NGINX</text></g>
+            <g class="c" style="animation-delay:3.9s"><rect x="556" y="256" width="62" height="28" rx="4"/><text class="chip" x="587" y="270">GIT</text></g>
+            <g class="p" style="animation-delay:4.05s"><rect x="630" y="256" width="82" height="28" rx="4"/><text class="chip" x="671" y="270">MAVEN</text></g>
+
+            <!-- open source -->
+            <g class="c" style="animation-delay:4.2s"><rect x="190" y="300" width="82" height="28" rx="4"/><text class="chip" x="231" y="314">ERUPT</text></g>
+            <g class="p" style="animation-delay:4.35s"><rect x="284" y="300" width="92" height="28" rx="4"/><text class="chip" x="330" y="314">LINQ.J</text></g>
+            <g class="c" style="animation-delay:4.5s"><rect x="388" y="300" width="124" height="28" rx="4"/><text class="chip" x="450" y="314">ERUPT-WEB</text></g>
+            <g class="p" style="animation-delay:4.65s"><rect x="524" y="300" width="134" height="28" rx="4"/><text class="chip" x="591" y="314">ERUPT-CUBE</text></g>
+            <g class="c" style="animation-delay:4.8s"><rect x="670" y="300" width="134" height="28" rx="4"/><text class="chip" x="737" y="314">ERUPT-FLOW</text></g>
+        </g>
+
+        <!-- scanline overlay -->
+        <rect x="6" y="6" width="888" height="344" fill="url(#scan)"/>
+    </g>
+</svg>
