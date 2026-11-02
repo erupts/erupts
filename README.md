@@ -1,6 +1,6 @@
 <img alt="less code · more power — open source · low-code · creator of erupt & linq.j" src="me.svg" width="100%" />
 
-<img alt="stack — Low-Code · Big Data · CDP · Data Platform · Java · Spring · MySQL · Redis · Angular · TypeScript · JavaScript · Spark · Flink · Kafka · ClickHouse · LLM · Agent · MCP · RAG" src="stack.svg" width="100%" />
+<img alt="stack — Low-Code · Big Data · CDP · Data Platform · E-Commerce · Java · Spring · JPA · MySQL · Redis · PostgreSQL · Angular · TypeScript · JavaScript · HTML5 · CSS3 · Spark · Flink · Kafka · ClickHouse · Paimon · Airflow · LLM · Agent · MCP · RAG · AI Coding · Skills · Linux · Docker · K8s · Nginx · Git · Maven · Erupt · Linq.J · Erupt-Web · Erupt-Cube · Erupt-Flow" src="stack.svg" width="100%" />
 
 <p align="center">
     <a href="https://www.erupt.xyz"><code><b>[ WEBSITE ]</b></code></a>&nbsp;&nbsp;
