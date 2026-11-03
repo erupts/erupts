@@ -1,6 +1,6 @@
 <img alt="less code · more power — open source · low-code · creator of erupt & linq.j" src="me.svg" width="100%" />
 
-<img alt="stack — Low-Code · Big Data · CDP · Data Platform · E-Commerce · Java · Spring · JPA · MySQL · Redis · PostgreSQL · Angular · TypeScript · JavaScript · HTML5 · CSS3 · Spark · Flink · Kafka · ClickHouse · Paimon · Airflow · LLM · Agent · MCP · RAG · AI Coding · Skills · Linux · Docker · K8s · Nginx · Git · Maven · Erupt · Linq.J · Erupt-Web · Erupt-Cube · Erupt-Flow" src="stack.svg" width="100%" />
+[//]: # (<img alt="stack — Low-Code · Big Data · CDP · Data Platform · E-Commerce · Java · Spring · JPA · MySQL · Redis · PostgreSQL · Angular · TypeScript · JavaScript · HTML5 · CSS3 · Spark · Flink · Kafka · ClickHouse · Paimon · Airflow · LLM · Agent · MCP · RAG · AI Coding · Skills · Linux · Docker · K8s · Nginx · Git · Maven · Erupt · Linq.J · Erupt-Web · Erupt-Cube · Erupt-Flow" src="stack.svg" width="100%" />)
 
 <p align="center">
     <a href="https://github.com/erupts/erupt"><code><b>[ ERUPT ]</b></code></a>&nbsp;&nbsp;
@@ -17,15 +17,38 @@
 An admin system is one annotated entity. Add a field, refresh, it shows up — paged, searchable, exportable, role-gated.
 
 ```java
-@Erupt(name = "User")
+@Erupt(
+    name   = "Developer",
+    desc   = "Less code, more power.",
+    prompt = "Ask me anything about erupt.",
+    power  = @Power(delete = false)
+)
 @Entity
-public class User extends BaseModel {
+public class Developer extends BaseModel {
 
     @EruptField(
         views = @View(title = "Name"),
         edit  = @Edit(title = "Name", search = @Search)
     )
     private String name = "YuePeng";
+
+    @EruptField(
+        views = @View(title = "Domain"),
+        edit  = @Edit(title = "Domain", type = EditType.TAGS)
+    )
+    private String[] domain = {"Low-Code", "Big Data", "CDP", "Data Platform", "E-Commerce", "AI"};
+
+    @EruptField(
+        views = @View(title = "Stack"),
+        edit  = @Edit(title = "Stack", type = EditType.TAGS)
+    )
+    private String[] stack = {"Java", "Spring", "Angular", "TypeScript", "Flink", "Spark", "ClickHouse", "LLM"};
+
+    @EruptField(
+        views = @View(title = "Stars"),
+        edit  = @Edit(title = "Stars")
+    )
+    private Integer stars = 10_000;
 }
 ```
 
