@@ -64,5 +64,3 @@ No local setup? [start.erupt.xyz](https://start.erupt.xyz) builds the project in
 - **Abstraction over accumulation** — complex problems usually hide a simple model; find it, don't pile code on it.
 - **Rewrite without regret** — never married to an implementation, always open to a better one.
 - **Ship the runtime, not the generator** — generated code is debt with a nicer name; render from metadata and stay rewritable.
-
-<p align="center"><code>› _</code></p>
